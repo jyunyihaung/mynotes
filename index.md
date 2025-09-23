@@ -31,8 +31,9 @@
 
 # test
 
-<br>post.url</br>
-<br>{{ post.url }}</br>
+<br>post.url<br>
+{{ post.url }}<br>
 
-<br>site.baseurl</br>
-<br>{{ site.baseurl }}</br>
+site.baseurl<br>
+{{ site.baseurl }}<br>
+
