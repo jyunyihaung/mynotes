@@ -1,12 +1,7 @@
-基本款的YAML front matter：
 ---
 layout: post
 title: Modbus study 0
 ---
-#front matter 前後使用 "---"包起來(還可以再添加許多其他的屬性，待續…)。
-#layout: post 指的是套用 post 這個模版產生畫面。
-#title: Modbus study 0 指的就是文章的標題。
-
 
 # 15 (0x0F) Write multiple coils
 Here is an example of a request to write a series of 10 coils starting at coil 20:
