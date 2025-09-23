@@ -13,7 +13,7 @@
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }},{{ post.url }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -36,5 +36,6 @@
 
 <br>site.baseurl</br>
 <br>{{ site.baseurl }}</br>
+
 
 
