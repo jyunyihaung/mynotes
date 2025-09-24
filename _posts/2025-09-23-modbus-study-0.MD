@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modbus study 0
-date: 2025-09-23 14:33:00 +0800
+date: 2025-09-23 14:33:00
 tags: Modbus
 ---
 
