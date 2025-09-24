@@ -1,8 +1,9 @@
+---
 layout: post
 title: Modbus study 0
 date: 2025-09-23 14:33:00 +0800
 tags: Modbus
-
+---
 
 # 15 (0x0F) Write multiple coils
 Here is an example of a request to write a series of 10 coils starting at coil 20:
