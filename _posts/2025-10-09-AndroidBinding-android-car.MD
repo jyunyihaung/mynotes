@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AndroidBinding-android
+title: AndroidBinding android
 date: 2025-10-09 14:33:00
 tags: C# android
 ---
