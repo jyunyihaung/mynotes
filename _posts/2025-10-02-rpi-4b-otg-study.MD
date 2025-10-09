@@ -1,6 +1,6 @@
 ---
 layout: post
-title: rpi 4b otg study
+title: "rpi 4b otg study"
 date: 2025-10-02 14:33:00
 tags: rpi
 ---
