@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MAUI Android http issue"
-date: 2025-15-15 15:05:00 +0800
+date: 2025-10-15 15:05:00 +0800
 author: "Jyun-Yi Huang"
 tags: C# android MAUI
 ---
