@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AndroidBinding android car"
-date: 2025-10-09 14:33:00
+date: 2025-10-09 14:33:00 +0800
 tags: C# android
 ---
 

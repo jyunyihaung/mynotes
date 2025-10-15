@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "rpi 4b otg study"
-date: 2025-10-02 14:33:00
+date: 2025-10-02 14:33:00 +0800
 tags: rpi
 ---
 
