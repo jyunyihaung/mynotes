@@ -14,7 +14,9 @@ tags: C# android MAUI
 假設內網目標 IP 為 192.168.1.38，在專案中加入以下兩個檔案:
 
 1. Platforms\Android\Resources\xml\network\_security\_config.xml
+
 ```
+
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
 	<domain-config cleartextTrafficPermitted="true">
@@ -25,12 +27,15 @@ tags: C# android MAUI
 ```
 
 2. Platforms\Android\AndroidManifest.xml
+
 ```
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 	<application ...
 		android:usesCleartextTraffic="true"
 		android:networkSecurityConfig="@xml/network_security_config"/>
 ...
+
 ```
 
 重新編譯後即可使用 HttpClient 對 192.168.1.38 連線。
