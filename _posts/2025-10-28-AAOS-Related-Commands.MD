@@ -4,7 +4,7 @@ title: "AAOS Related Command"
 date: 2025-10-28 16:03:00 +0800
 categories: Android AAOS
 tags: Android AAOS
-publish: false
+published: false
 ---
 
 #查詢當前 Android 虛擬機權限
