@@ -4,6 +4,7 @@ title: "MAUI Android http issue"
 date: 2025-10-15 15:05:00 +0800
 author: "Jyun-Yi Huang"
 tags: C# android MAUI
+published: true
 ---
 
 # 使用 MAUI 開發 Android App 使用 HttpClient 時出現 Connection failure

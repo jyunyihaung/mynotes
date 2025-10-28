@@ -4,6 +4,7 @@ title: "AAOS Related Command"
 date: 2025-10-28 16:03:00 +0800
 categories: Android AAOS
 tags: Android AAOS
+author: "Jyun-Yi Huang"
 published: false
 ---
 

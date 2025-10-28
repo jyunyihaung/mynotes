@@ -3,6 +3,8 @@ layout: post
 title: Modbus study 0
 date: 2025-09-23 14:33:00 +0800
 tags: Modbus
+author: "Jyun-Yi Huang"
+published: true
 ---
 
 # 15 (0x0F) Write multiple coils
