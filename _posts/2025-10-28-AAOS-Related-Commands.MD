@@ -42,7 +42,7 @@ ro.build.type 如果為 user 則無法 root，
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -list-avds
 # 假設輸出：MyAutomotiveApi35
 
-AppData\Local\Android\Sdk> .\emulator\emulator.exe -list-avds
+AppData\Local\Android\Sdk\emulator\emulator.exe -list-avds
 Honda_IVI-SYSTEM
 Medium_Phone_API_36.1
 
