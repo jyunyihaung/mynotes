@@ -37,7 +37,7 @@ ro.build.type 如果為 user 則無法 root，
 
 #使用指令查詢 AVD(android virtual device)
 
-```bash
+```powershell
 
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -list-avds
 # 假設輸出：MyAutomotiveApi35
