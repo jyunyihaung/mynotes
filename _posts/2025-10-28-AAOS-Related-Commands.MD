@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "AAOS Related Command"
-date: 2025-10-28 16:03:00 +0800
+date: 2025-10-29 11:49:00 +0800
 categories: Android AAOS
 tags: Android AAOS
 author: "Jyun-Yi Huang"
-published: false
+published: true
 ---
 
 #查詢當前 Android 虛擬機權限
