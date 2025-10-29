@@ -77,7 +77,7 @@ $SYS_DIR = "/system/priv-app/$APPNAME"
 ```
 
 如需特殊權限則還需要建立權限白名單，
-建立 .\privapp-permissions-com.companyname.bluetooth\_scan\_test.xml，內容例如：
+建立 .\privapp-permissions-com.companyname.bluetooth\_scan\_test.xml 內容例如：
 
 ```xml
 
@@ -95,5 +95,11 @@ $SYS_DIR = "/system/priv-app/$APPNAME"
 
 .\adb.exe -s emulator-5554 push ".\privapp-permissions-$PKG.xml" "/system/etc/permissions/"
 
+```
+
+#檢查特殊權限相關訊息
+```bash
+
+.\adb.exe -s emulator-5554 logcat -d | findstr /i "Privileged Permission PackageManager com.companyname.bluetooth_scan_test"
 
 ```
