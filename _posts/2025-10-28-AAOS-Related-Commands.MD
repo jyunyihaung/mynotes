@@ -13,7 +13,7 @@ published: true
 ro.build.type 如果為 user 則無法 root，
 如果為 userdebug 則可以 root
 
-```bash
+````powershell
 
 .\adb.exe -s emulator-5554 shell getprop ro.build.type
 
@@ -21,7 +21,7 @@ ro.build.type 如果為 user 則無法 root，
 
 #Root 進入 Android 系統
 
-```bash
+```powershell
 
 .\adb.exe -s emulator-5554 root
 
@@ -29,7 +29,7 @@ ro.build.type 如果為 user 則無法 root，
 
 #重新掛載取得讀寫系統權限
 
-```bash
+```powershell
 
 .\adb.exe -s emulator-5554 remount
 
@@ -52,18 +52,17 @@ Medium_Phone_API_36.1
 
 -writable-system 會用 overlayfs 讓 /system 可寫；-no-snapshot* 避免載入唯讀快照
 
-```bash
+```powershell
 
 & "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd MyAutomotiveApi35 `
   -writable-system -no-snapshot -no-snapshot-load -no-snapshot-save `
   -selinux permissive
 
-
 ```
 
 #建立系統預設資料夾並推送APK檔
 
-```bash
+````powershell
 
 $APPNAME = "Bluetooth_Scan_Test"
 $PKG     = "com.companyname.bluetooth_scan_test"
@@ -91,14 +90,15 @@ $SYS_DIR = "/system/priv-app/$APPNAME"
 
 推送指令:
 
-```bash
+````powershell
 
 .\adb.exe -s emulator-5554 push ".\privapp-permissions-$PKG.xml" "/system/etc/permissions/"
 
 ```
 
 #檢查特殊權限相關訊息
-```bash
+
+````powershell
 
 .\adb.exe -s emulator-5554 logcat -d | findstr /i "Privileged Permission PackageManager com.companyname.bluetooth_scan_test"
 
